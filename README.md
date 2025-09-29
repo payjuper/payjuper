@@ -2,3 +2,4 @@
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=payjuper&layout=compact&theme=dark)
 ---
 ![LeetCode Stats](https://leetcard.kdeveloper123.cool/payjuper?theme=dark&ext=activity)
+![LeetCode Stats](https://leetcode.card.k-v.org/kdeveloper123?theme=dark)
