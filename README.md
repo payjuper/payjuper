@@ -1,6 +1,6 @@
 <div align="center">
 
-# payjuper
+# Youngkyo Kim
 
 **Full-Stack Developer · AI/ML Engineer**
 
@@ -64,12 +64,8 @@ I build end-to-end systems — from data pipelines and ML models to production-r
 
 ## GitHub Stats
 
-<div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=payjuper&show_icons=true&theme=default&hide_border=true&count_private=true" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=payjuper&layout=compact&theme=default&hide_border=true" />
 
-</div>
 
 <div align="center">
 
