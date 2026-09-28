@@ -1,76 +1,29 @@
-<div align="center">
-
 # Youngkyo Kim
 
-**Full-Stack Developer · AI/ML Engineer**
+CS senior at UW–Madison (May 2027). Looking for quant developer, trading systems, and trade support roles for 2027.
 
-</div>
+I build trading systems and the data pipelines under them, then run them for real:
 
----
+- Built a Binance futures trading framework alone and ran it with my own capital: a pipeline over years of 1-minute data, a backtester that evaluated 100+ long/short strategy variants, and live bots placing TP/SL bracket orders. The backtest was profitable, the live bot lost money, and I traced the gap to in-sample overfitting, unfilled limit orders, and slippage.
+- Shipped an Android app alone that turns Korean public disclosure data (DART insider trades, public officials' asset filings, economic indicators) from 4+ sources into 6 chart modules for retail investors; Postgres backend on Supabase, 24-user closed test, live on Google Play.
+- Keep 100+ Linux and Windows machines running for UW–Madison's College of Engineering: OS migrations with no unplanned research downtime, EDR alert triage from process execution history.
+- Built four LLM apps on Azure at Microsoft AI School in Seoul, including a RAG pipeline over Azure AI Search.
+- Former battalion communications specialist, Republic of Korea Army; interpreter with the U.S. Marine Corps during joint training.
 
-## About
+Python, SQL/Postgres, C/C++, TypeScript, React/React Native, FastAPI, Supabase, Claude API, Azure OpenAI, Linux.
 
-I build end-to-end systems — from data pipelines and ML models to production-ready APIs and frontends. Comfortable across the full stack, with a focus on applied AI and financial data engineering.
+## Projects
 
-- Full-stack web development (React · FastAPI · Supabase)
-- RAG pipelines, LLM integration, and Azure AI services
-- Crypto market data engineering and algorithmic trading systems
-- REST API design and backend architecture
+**[binance-trading-framework](https://github.com/payjuper/binance-trading-framework)**  
+Binance Vision data pipeline, rule-based backtester with equity curves, live long/short bots with TP/SL bracket orders via the exchange API. Ran live on perpetual futures.
 
----
+**[Korea_history_quiz_api](https://github.com/payjuper/Korea_history_quiz_api)**  
+RAG quiz generator: retrieves past exam questions from Azure AI Search, generates multiple-choice items with explanations via Azure OpenAI. FastAPI.
 
-## Tech Stack
+**[Cheesehacks](https://github.com/payjuper/Cheesehacks)**  
+Team-matching platform for UW–Madison CS students, built in 24 hours with 3 teammates: post projects with open roles, apply by role, search and filter. React, Supabase/Postgres.
 
-**Languages**
+**[holdem-equity-trainer](https://github.com/payjuper/holdem-equity-trainer)** · [demo](https://payjuper.github.io/holdem-equity-trainer/)  
+Small practice tool: Monte Carlo hand equity with standard error, verified against exact enumeration. Built to train my own probability intuition.
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-**Backend**
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-**AI / ML**
-
-![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-0089D6?style=flat-square&logo=microsoftazure&logoColor=white)
-![Azure Search](https://img.shields.io/badge/Azure_AI_Search-0089D6?style=flat-square&logo=microsoftazure&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-
----
-
-## Featured Projects
-
-| Project | Description | Stack |
-|--------|-------------|-------|
-| 🇰🇷 **[Korea History Quiz API](https://github.com/payjuper/Korea_history_quiz_api)** | RAG-based quiz API built during MS AI School. Retrieves historical context via Azure Cognitive Search and generates multiple-choice questions with answers and explanations using Azure OpenAI. | FastAPI · Azure OpenAI · Azure AI Search · Python · Pydantic |
-| 📈 **[Binance Trading Framework](https://github.com/payjuper/binance-trading-framework)** | End-to-end Python pipeline for Binance Vision: downloads monthly ZIP archives, extracts CSVs, and merges them into a clean time-sorted OHLCV dataset. Includes a rule-based backtesting engine with Plotly equity curves and live long/short bots with automatic TP/SL bracket orders. | Python · pandas · Binance API · Plotly · python-dotenv |
-| 🧀 **[Cheesehacks](https://github.com/payjuper/Cheesehacks)** *(in progress)* | Team-building and project matching platform for CS students at UW–Madison. Features tech-stack-based discovery, role-based applications, a job board, a research lab directory, and a hackathon calendar. Built with 3 teammates. | React · Vite · Supabase · PostgreSQL · Supabase Auth · Supabase Storage |
-
----
-
-## GitHub Stats
-
-
-
-
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com?user=payjuper&theme=default&hide_border=true)
-
-</div>
+[LinkedIn](https://www.linkedin.com/in/youngkyo-kim-00a71134b) · yj1son@naver.com
